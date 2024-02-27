@@ -7,8 +7,8 @@ CRUD приложение для управления книгами.
 1. Склонируйте репозиторий:
 
     ```bash
-    git clone https://github.com/ваш-логин/ваш-репозиторий.git
-    cd ваш-репозиторий
+    git clone https://github.com/qlydev/books-crud.git
+    cd books-crud
     ```
 
 2. Установите зависимости:
