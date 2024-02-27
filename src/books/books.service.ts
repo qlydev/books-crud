@@ -96,9 +96,4 @@ export class BooksService {
     });
   }
 
-  public async test() {
-    return this.prismaService.genres.findMany({
-      select: { name: true },
-    });
-  }
 }

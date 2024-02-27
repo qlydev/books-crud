@@ -44,9 +44,4 @@ export class BooksController {
   async deleteBook(@Query('id') id: string) {
     return this.booksService.deleteBook(Number(id));
   }
-
-  @Get('test')
-  async test() {
-    return this.booksService.test();
-  }
 }
